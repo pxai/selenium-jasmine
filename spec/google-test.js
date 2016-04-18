@@ -5,7 +5,8 @@ describe('Selenium simple sample', function() {
     // Before each test open a website
     beforeEach(function(done) {
         this.driver = new selenium.Builder().
-            withCapabilities(selenium.Capabilities.chrome()).
+            forBrowser('firefox').
+           // withCapabilities(selenium.Capabilities.chrome()).
             build();
 
         this.driver.get('http://www.techinsight.io/').then(done);
