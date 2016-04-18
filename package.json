@@ -1,0 +1,28 @@
+{
+  "name": "selenium-jasmine",
+  "version": "1.0.0",
+  "description": "Simple project to unit testing selenium using jasmine",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pxai/selenium-jasmine.git"
+  },
+  "keywords": [
+    "jasmine",
+    "selenium",
+    "pxai"
+  ],
+  "author": "Pello Altadill",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pxai/selenium-jasmine/issues"
+  },
+  "homepage": "https://github.com/pxai/selenium-jasmine#readme",
+  "dependencies": {
+    "jasmine": "^2.4.1",
+    "selenium-webdriver": "^2.53.1"
+  }
+}
