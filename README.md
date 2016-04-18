@@ -31,4 +31,6 @@ And init jasmin
 jasmine init
 ```
 
-
+## Further reading:
+* Selenium + Jasmine [http://www.techinsight.io/review/devops-and-automation/browser-automation-using-selenium-webdriver-and-nodejs/]
+* Selenium + Mocha [https://dzone.com/articles/selenium-nodejs-and-mocha]
